@@ -1,4 +1,5 @@
 import React from 'react'
+import{ BrowserRouter, Route} from "react-router-dom"
 
 function Navbar() {
     return (
@@ -12,7 +13,7 @@ function Navbar() {
                 <ul className="navbar-nav mr-auto">
             
                 <li className="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
+                    <a className="nav-link" href="index.html">About</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="./images.html">Images</a>
