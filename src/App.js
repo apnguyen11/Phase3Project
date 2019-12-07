@@ -16,7 +16,9 @@ function App() {
            <Navbar/>
            <Switch>
              <Route path="/images">
+             <div id="mainCard"class="card-columns">
               <Cards/>
+              </div>
              </Route>
              <Route path="/about"> 
               <About/>
