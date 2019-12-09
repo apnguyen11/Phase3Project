@@ -2,10 +2,12 @@ import React from 'react'
 import self from './self.jpg'
 import '../App.css';
 
+
 function About() {
     return (
         <div>
             <h1 id='andy'>PHI NGUYEN</h1>
+         
             <div id="container">
                 <div>
                         <img id="self" src={self} alt="self"/>
