@@ -8,9 +8,10 @@ class Lightbox extends React.Component {
   handleShowDialog = () => {
       this.setState({ isOpen: !this.state.isOpen});
       console.log("clicked")
+  
+    
   }
-  render(props) {
-    console.log(props)
+  render() {
     return ( 
       <div>
         <img
@@ -20,19 +21,15 @@ class Lightbox extends React.Component {
           alt="noimage"
         />
         {this.state.isOpen && (
-          <dialog
-            className="dialog"
-            style={{ position: "absolute" }}
-            open
-            onClick={this.handleShowDialog}
-          >
+   
             <img
-              className="image"
+              style={{position: 'absolute', justifyContent: 'center'}}
+              className="image modal-content"
               src= {this.props.src}
               onClick={this.handleShowDialog}
               alt="noimage"
             />
-          </dialog>
+        
         )}
       </div>
     );
