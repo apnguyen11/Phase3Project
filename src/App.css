@@ -73,7 +73,11 @@
   /* width: 80%; */
   max-width: 30%;
   position: absolute;
+ 
   
+}
+.dialog{
+  background: rgba(0, 0, 0, 0.8)
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -143,5 +147,7 @@
 .image{
   height: 100%;
   width: 100%;
-
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
 }

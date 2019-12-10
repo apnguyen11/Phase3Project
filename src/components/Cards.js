@@ -42,19 +42,19 @@ import ZachHurricane from "./Zach Hurricane.jpg"
 import ZachManny from "./Zach Manny.jpg"
 import joshwall from "./josh wall.jpg"
 import ZionWarmUpFsLip from "./zion warm up fs lip.jpg"
-// import Lightbox from './Lightbox'
+import Lightbox from './Lightbox'
 
 function InnerInfo(props) {
  
     return (
         <div className="card p-3 text-center">
                 {/* <img className={props.cardClass} src={props.src} alt="Card cap" onClick={props.action}/> */}
-                <Popup trigger={<img className={props.cardClass} src={props.src} alt="Card cap" onClick={props.action}/>} position='center'>
-                <img className={props.cardClass} src={props.src} alt="Card cap" onClick={props.action}/>
-                </Popup>
+                {/* <Popup trigger={<img className={props.cardClass} src={props.src} alt="Card cap" onClick={props.action}/>} position='center'>
+                <img style={{position: "fixed"}} className={props.cardClass} src={props.src} alt="Card cap" onClick={props.action}/>
+                </Popup> */}
 
                {/* <LightCardModal src={props.src}/> */}
-                {/* <Lightbox src={props.src}/> */}
+                <Lightbox src={props.src}/>
                 {/* <LightCard src={props.src} className={props.cardClass}/> */}
                 
                

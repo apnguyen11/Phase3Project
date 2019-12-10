@@ -15,21 +15,27 @@ class Lightbox extends React.Component {
     return ( 
       <div>
         <img
-          className="small image"
+          className={"image"}
           src = {this.props.src}
           onClick={this.handleShowDialog}
           alt="noimage"
         />
         {this.state.isOpen && (
-   
+          <div
+            className="dialog"
+            style={{ position: "fixed", top: '0', left: '0', zIndex: '1', overflow: 'auto',
+          height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '3vw' }}
+            open
+            onClick={this.handleShowDialog}
+          >
             <img
-              style={{position: 'absolute', justifyContent: 'center'}}
+              style={{height: '75%'}}
               className="image modal-content"
               src= {this.props.src}
               onClick={this.handleShowDialog}
               alt="noimage"
             />
-        
+          </div>
         )}
       </div>
     );
