@@ -1,4 +1,5 @@
 import React from 'react'
+import Popup from 'reactjs-popup'
 // import Lightbox from 'Lightbox'
 import DavidBs from './David Bs Flip.jpg'
 import Jagger from "./Dallas-blunt.jpg"
@@ -41,14 +42,19 @@ import ZachHurricane from "./Zach Hurricane.jpg"
 import ZachManny from "./Zach Manny.jpg"
 import joshwall from "./josh wall.jpg"
 import ZionWarmUpFsLip from "./zion warm up fs lip.jpg"
-import Lightbox from './Lightbox'
+// import Lightbox from './Lightbox'
 
 function InnerInfo(props) {
  
     return (
         <div className="card p-3 text-center">
                 {/* <img className={props.cardClass} src={props.src} alt="Card cap" onClick={props.action}/> */}
-                <Lightbox src={props.src}/>
+                <Popup trigger={<img className={props.cardClass} src={props.src} alt="Card cap" onClick={props.action}/>} position='center'>
+                <img className={props.cardClass} src={props.src} alt="Card cap" onClick={props.action}/>
+                </Popup>
+
+               {/* <LightCardModal src={props.src}/> */}
+                {/* <Lightbox src={props.src}/> */}
                 {/* <LightCard src={props.src} className={props.cardClass}/> */}
                 
                
@@ -64,20 +70,26 @@ function InnerInfo(props) {
     )
 }
 
-// class LightCard extends React.Component{
-//     state = { isOpen: false};
+class LightCardModal extends React.Component{
+    state = { isOpen: false};
 
-//     handleShowLightCard = () => {
-//         this.setState({ isOpen: !this.state.isOpen});
+    handleShowLightCard = () => {
+        // this.setState({ isOpen: !this.state.isOpen});
+        
       
-//     }
+    }
 
-//     render(){
-//         return (
-//             <img className={this.props.cardClass} src={this.props.src} alt="Card cap" onClick={this.props.action}/>
-//         )
-//     }
-// }
+    render(){
+        return (
+            <div id="myModal" class="moda2l">
+
+            <span class="close">&times;</span>
+            <img src={this.props.src} alt='yodi'class="modal-content" id="img01"/>
+      
+    </div>
+        )
+    }
+}
 
 
 class Cards extends React.Component{
