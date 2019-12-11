@@ -1,43 +1,42 @@
 import React from 'react'
 import Popup from 'reactjs-popup'
-// import Lightbox from 'Lightbox'
 import DavidBs from './David Bs Flip.jpg'
 import Jagger from "./Dallas-blunt.jpg"
 import Bango from "./Bango.jpg"
 import BenCoffee from "./Ben Coffee.jpg"
 import BenGrab from "./Ben Grab.jpg"
-// import BenNoseG from "./Ben Nose G.jpg"
-// import BenNoseBlunt from "./Ben NoseBlunt.jpg"
-// import BenTre from "./Ben Tre.jpg"
+import BenNoseG from "./Ben Nose G.jpg"
+import BenNoseBlunt from "./Ben NoseBlunt.jpg"
+import BenTre from "./Ben Tre.jpg"
 import BenWall from "./Ben Wall.jpg"
-// import BenOllie from "./Ben ollie.jpg"
+import BenOllie from "./Ben ollie.jpg"
 import CarterHurricane from "./Carter Hurricane.jpg"
 import CarterSmith from "./Carter Smith.jpg"
-// import DavidFakieFlip from "./David Fakie Flip.jpg"
-// import DavidOllie from "./David Ollie.jpg"
+import DavidFakieFlip from "./David Fakie Flip.jpg"
+import DavidOllie from "./David Ollie.jpg"
 import GeorgeFeeble from "./George Feeble.jpg"
 import GeorgeFsBoard from "./George Fs Board.jpg"
 import HenryNoseBlunt from "./Henry Nose Blunt.jpg"
 import Jamie from "./Jamie.jpg"
-// import JaredNoseG from "./Jared Nose G.jpg"
+import JaredNoseG from "./Jared Nose G.jpg"
 import JoshNoseSlide from "./Josh Nose Slide.jpg"
-// import JoshSlappyTail from "./Josh Slappy Tail.jpg"
-// import JoshWallride from "./Josh Wallride.jpg"
+import JoshSlappyTail from "./Josh Slappy Tail.jpg"
+import JoshWallride from "./Josh Wallride.jpg"
 import KCBLunt from "./KC BLunt.jpg"
 import Matt50 from "./Matt 5-0.jpg"
-// import MattSmith from "./Matt Smith.jpg"
+import MattSmith from "./Matt Smith.jpg"
 import MaxGrab from "./Max Grab.jpg"
-// import MikeyCrook from "./Mikey Crook.jpg"
-// import MikeyNoseG from "./Mikey Nose G.jpg"
-// import NathanFeeble from "./Nathan Feeble.jpg"
+import MikeyCrook from "./Mikey Crook.jpg"
+import MikeyNoseG from "./Mikey Nose G.jpg"
+import NathanFeeble from "./Nathan Feeble.jpg"
 import RoddieOllie from "./Roddie Ollie.jpg"
 import RoddieSmith from "./Roddie Smith.jpg"
-// import SlinkyHippie from "./Slinky Hippie.jpg"
+import SlinkyHippie from "./Slinky Hippie.jpg"
 import TateFsFlip from "./Tate Fs Flip.jpg"
-// import TateOllie from "./Tate Ollie.jpg"
-// import TateSwFlip from "./Tate Sw Flip.jpg"
+import TateOllie from "./Tate Ollie.jpg"
+import TateSwFlip from "./Tate Sw Flip.jpg"
 import TateTre from "./Tate Tre.jpg"
-// import TrungBlunt from "./Trung Blunt.jpg"
+import TrungBlunt from "./Trung Blunt.jpg"
 import ZachHurricane from "./Zach Hurricane.jpg"
 import ZachManny from "./Zach Manny.jpg"
 import joshwall from "./josh wall.jpg"
@@ -54,7 +53,7 @@ function InnerInfo(props) {
                 </Popup> */}
 
                {/* <LightCardModal src={props.src}/> */}
-                <Lightbox src={props.src}/>
+                <Lightbox src={props.src} className={props.cardClass}/>
                 {/* <LightCard src={props.src} className={props.cardClass}/> */}
                 
                
@@ -316,7 +315,130 @@ class Cards extends React.Component{
                 trick: "Hurricane",
                 location: "Downtown, Houston",
                 src: ZachHurricane
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Ben Havran",
+                trick: "Nose Grind",
+                location: "Downtown, Houston (Penzoil)",
+                src: BenNoseG 
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "David Langston",
+                trick: "Ollie",
+                location: "Downtown, Houston",
+                src: DavidOllie
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Trung Nguyen",
+                trick: "Bluntslide",
+                location: "Austin, Texas",
+                src: TrungBlunt
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Tate Malpass",
+                trick: "Switch Flip",
+                location: "Austin, Texas",
+                src: TateSwFlip 
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Tate Malpass",
+                trick: "Ollie",
+                location: "Houston Minute Maid Park",
+                src: TateOllie
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Ben Havran",
+                trick: "Nose Blunt",
+                location: "New York LES",
+                src: BenNoseBlunt 
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Nathan Pacheco",
+                trick: "Feeble",
+                location: "Houston, Texas",
+                src: NathanFeeble
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Kyle Cielencki",
+                trick: "Hippie Shuv It",
+                location: "Austin, Texas",
+                src:  SlinkyHippie 
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Mikey Brown",
+                trick: "Crooked Grind",
+                location: "Houston, Texas",
+                src:  MikeyCrook
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Josh Ramon",
+                trick: "Wallride",
+                location: "Houston, Texas",
+                src:  JoshWallride
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Ben Havran",
+                trick: "Tre Flip",
+                location: "Houston, Texas",
+                src:  BenTre
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Matt Feist",
+                trick: "Bs Smith",
+                location: "Houston, Texas",
+                src:  MattSmith
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Josh Ramon",
+                trick: "Slappy Tailslide",
+                location: "Houston, Texas",
+                src:  JoshSlappyTail
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Jared Guitierrez",
+                trick: "Nose Grind",
+                location: "Downtown Houston",
+                src:  JaredNoseG
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "David Langston",
+                trick: "Fakie Flip",
+                location: "Downtown Houston",
+                src:  DavidFakieFlip 
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Mikey Brown",
+                trick: "Nose Grind",
+                location: "Downtown Houston",
+                src:  MikeyNoseG
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Ben Havran",
+                trick: "Ollie",
+                location: "Rice Village",
+                src:  BenOllie
             }
+
+
+
+
 
 
 
@@ -324,20 +446,12 @@ class Cards extends React.Component{
 
            
 
+
+           
+
         ]
     }
 
-    
-    handleClickImage = (ev) => {
-        console.log('clicked')
-
-
-
-   
-
-                // Lightbox.classList.add('active')
-
-    }
     render(){
         const cards = this.state.skaters.map(
             (obj) =>  

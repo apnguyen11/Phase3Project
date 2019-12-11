@@ -17,7 +17,8 @@ class Lightbox extends React.Component {
     return ( 
       <div>
         <img
-          className={"image"}
+          className={"card-img-top img-fluid"}
+          style={{hover: {opacity: 0.7}}}
           src = {this.props.src}
           onClick={this.handleShowDialog}
           alt="noimage"
@@ -31,7 +32,7 @@ class Lightbox extends React.Component {
             onClick={this.handleShowDialog}
           >
             <Image
-              style={{height: '75%', position: 'fixed', borderRadius: '8px', animationName: 'zoom', animationDuration: '0.6s'}}
+              style={{height: '85%', position: 'fixed', borderRadius: '8px', animationName: 'zoom', animationDuration: '0.6s'}}
             
               src= {this.props.src}
               onClick={this.handleShowDialog}
