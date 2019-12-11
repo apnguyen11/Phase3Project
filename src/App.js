@@ -17,10 +17,12 @@ function App() {
          <div>
            <Navbar/>
            <Switch>
+             <Route exact path="/">
+             <About/>
+             </Route>
              <Route path="/images">
              <div id="mainCard"class="card-columns" style={{padding: "20px 90px 90px 90px"}}>
               <Cards/>
-              
               </div>
              </Route>
              <Route path="/about"> 

@@ -1,7 +1,7 @@
 import React from 'react'
 import self from './self.jpg'
 import '../App.css';
-
+import Image from 'react-bootstrap/Image'
 
 function About() {
     return (
@@ -10,7 +10,7 @@ function About() {
          
             <div id="container">
                 <div>
-                        <img id="self" src={self} alt="self"/>
+                        <Image id="self" src={self} alt="self"/>
                 </div>
             </div>
                     <div  style={{textAlign: "center"}}>

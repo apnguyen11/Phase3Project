@@ -1,6 +1,5 @@
 import React from 'react'
 import '../App.css'
-import DavidBs from './David Bs Flip.jpg'
 import Image from 'react-bootstrap/Image'
 
 
