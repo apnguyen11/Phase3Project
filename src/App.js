@@ -18,7 +18,7 @@ function App() {
            <Navbar/>
            <Switch>
              <Route path="/images">
-             <div id="mainCard"class="card-columns">
+             <div id="mainCard"class="card-columns" style={{padding: "20px 90px 90px 90px"}}>
               <Cards/>
               
               </div>

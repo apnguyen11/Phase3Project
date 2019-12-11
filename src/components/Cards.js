@@ -70,26 +70,6 @@ function InnerInfo(props) {
     )
 }
 
-class LightCardModal extends React.Component{
-    state = { isOpen: false};
-
-    handleShowLightCard = () => {
-        // this.setState({ isOpen: !this.state.isOpen});
-        
-      
-    }
-
-    render(){
-        return (
-            <div id="myModal" class="moda2l">
-
-            <span class="close">&times;</span>
-            <img src={this.props.src} alt='yodi'class="modal-content" id="img01"/>
-      
-    </div>
-        )
-    }
-}
 
 
 class Cards extends React.Component{
