@@ -9,6 +9,11 @@
   text-align:center;
   padding-top: 20px;
 }
+
+#contact{
+  text-align:center;
+  padding-top: 20px;
+}
 .card-columns{
   margin:3em;
 }
@@ -33,14 +38,25 @@
   
 }
 
+#enterMain{
+  color: blue;
+  background-color: green;
+  height: 100vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
 #container{
-  display:flex;
+
   margin: auto;
   width: 35%;
   border: 3px solid green;
   padding: 10px;
   margin-top: 35px; 
   height:100%;
+  min-height: 100px;
+  min-width: 100px;
 }
 
 /* Style the Image Used to Trigger the Modal */
@@ -65,6 +81,11 @@
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.navbar{
+  /* visibility: hidden;
+  display:none; */
 }
 
 /* Modal Content (Image) */
@@ -155,4 +176,13 @@
 
 #mainCard{
   padding:25px;
+}
+
+#mainForm{
+ padding-left: 40px;
+ padding-top: 15px;
+ border: 3px solid green;
+ padding-bottom: 30px;
+ margin: 20px;
+ 
 }

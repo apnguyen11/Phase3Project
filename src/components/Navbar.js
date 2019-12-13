@@ -25,10 +25,16 @@ function Navbar() {
                    Images
                </li>
                 </Link>
+                <Link to="/contact">
+                <li className="nav-item nav-link">
+                    Contact
+                </li>
+                </Link>
                
-                <li className="nav-item">
+                <li className="nav-item ">
                         <a className="nav-link" href="https://www.instagram.com/incometaxes/">Social</a>
-                    </li>
+                </li>
+               
                 </ul>
             </div>
         </nav>

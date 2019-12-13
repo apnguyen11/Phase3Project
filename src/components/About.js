@@ -8,7 +8,7 @@ function About() {
         <div>
             <h1 id='andy'>PHI NGUYEN</h1>
          
-            <div id="container">
+            <div id="container" >
                 <div>
                         <Image id="self" src={self} alt="self"/>
                 </div>

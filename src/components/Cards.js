@@ -14,6 +14,7 @@ function InnerInfo(props) {
                                 {props.location}<cite title="Source Title"></cite>
                         </small>
                 </div>
+                
             </div>
     )
 }
