@@ -384,7 +384,30 @@ class Cards extends React.Component{
                 trick: "Ollie",
                 location: "Rice Village",
                 src:  "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/Ben%20ollie.jpg?alt=media&token=df978229-71e6-4457-8f2c-495502674661"
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Josh Ramon",
+                trick: "Bs Smith",
+                location: "Downtown Houston",
+                src:  "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/Josh%20Bs%20Smith%20DT.JPG?alt=media&token=3f3cdd1f-5f85-4ecd-ae41-9a8e8146cf75"
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Ben Havran",
+                trick: "Fs Lip",
+                location: "Houston, Texas",
+                src:  "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/ben%20fs%20lip%20huge.jpg?alt=media&token=edaa8dca-f5df-41a6-8630-fecda068a536"
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Josh Ramon",
+                trick: "Bs Lip",
+                location: "Downtown Houston",
+                src:  "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/josh%20bs%20lip%20dt.jpg?alt=media&token=41f242f0-a138-41d1-b214-7988edf04878"
             }
+
+
         ]
     }
 
