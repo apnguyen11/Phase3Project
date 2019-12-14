@@ -40,7 +40,7 @@ function App() {
              </Route>
              <Route path="/contact">
              <Provider store={store}>
-             <Contact onSubmit={showResults}/>
+             <Contact/>
       
              </Provider>
              
