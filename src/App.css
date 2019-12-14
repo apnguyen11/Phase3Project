@@ -3,6 +3,8 @@
   font-family: sans-serif;
   font-weight: 800;
   margin-right: 20px;
+  padding-left: 30px;
+  
 }
 
 #andy{
@@ -84,8 +86,7 @@
 }
 
 .navbar{
-  /* visibility: hidden;
-  display:none; */
+ padding: 50px;
 }
 
 /* Modal Content (Image) */
