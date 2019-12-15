@@ -1,5 +1,5 @@
 import React from 'react'
-import self from './self.jpg'
+
 import '../App.css';
 import Image from 'react-bootstrap/Image'
 
@@ -10,7 +10,7 @@ function About() {
          
             <div id="container" >
                 <div>
-                        <Image id="self" src={self} alt="self"/>
+                        <Image id="self" src={"https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/self%20copy.jpg?alt=media&token=9a775e28-a05e-4766-8121-5798a9ab0f1c"} alt="self"/>
                 </div>
             </div>
                     <div  style={{textAlign: "center"}}>

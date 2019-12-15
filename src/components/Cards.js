@@ -301,19 +301,20 @@ class Cards extends React.Component{
                 location: "Houston Minute Maid Park",
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/Tate%20Ollie.jpg?alt=media&token=368771a4-30d5-47a3-a3e8-3f377045505c"
             },
-            {
-                cardClass: "card-img-top img-fluid",
-                name: "Ben Havran",
-                trick: "Nose Blunt",
-                location: "New York LES",
-                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/Ben%20NoseBlunt.jpg?alt=media&token=90e5d2d6-f060-41c4-a769-48b14209265a"
-            },
+           
             {
                 cardClass: "card-img-top img-fluid",
                 name: "Nathan Pacheco",
                 trick: "Feeble",
                 location: "Houston, Texas",
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/Nathan%20Feeble.jpg?alt=media&token=524a8d49-394d-40b3-b18f-aed8da6ae8e8"
+            },
+            {
+                cardClass: "card-img-top img-fluid",
+                name: "Ben Havran",
+                trick: "Nose Blunt",
+                location: "New York (LES)",
+                src: "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/Ben%20NoseBlunt.jpg?alt=media&token=90e5d2d6-f060-41c4-a769-48b14209265a"
             },
             {
                 cardClass: "card-img-top img-fluid",
@@ -390,7 +391,7 @@ class Cards extends React.Component{
                 name: "Josh Ramon",
                 trick: "Bs Smith",
                 location: "Downtown Houston",
-                src:  "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/Josh%20Bs%20Smith%20DT.JPG?alt=media&token=3f3cdd1f-5f85-4ecd-ae41-9a8e8146cf75"
+                src:  "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/josh%201ebt.JPG?alt=media&token=fa2770ed-ebe0-4593-88af-0f276f004054"
             },
             {
                 cardClass: "card-img-top img-fluid",
