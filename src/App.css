@@ -4,6 +4,7 @@
   font-weight: 800;
   margin-right: 20px;
   padding-left: 30px;
+ 
   
 }
 
@@ -85,9 +86,7 @@
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
-.navbar{
- padding: 50px;
-}
+
 
 /* Modal Content (Image) */
 .modal-content {
