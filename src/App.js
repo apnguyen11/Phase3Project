@@ -31,7 +31,7 @@ function App() {
              <About/>
              </Route>
              <Route path="/images">
-             <div id="mainCard"class="card-columns" style={{padding: "20px 90px 90px 90px"}}>
+             <div id="mainCard"class="card-columns" >
               <Cards/>
               </div>
              </Route>

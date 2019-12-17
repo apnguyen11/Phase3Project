@@ -26,7 +26,7 @@ class Lightbox extends React.Component {
           <div
             className="dialog"
             style={{ position: "fixed", top: '0', left: '0', zIndex: '1', overflow: 'auto',
-          height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',  }}
+          height: '100%', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'  }}
             open
             onClick={this.handleShowDialog}
           >

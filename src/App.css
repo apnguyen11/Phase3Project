@@ -99,8 +99,12 @@
   
 }
 .dialog{
-  background: rgba(0, 0, 0, 0.8)
+  background: rgba(0, 0, 0, 0.8);
+
+
 }
+
+
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
@@ -175,7 +179,15 @@
 }
 
 #mainCard{
-  padding:25px;
+
+  padding: 20px 90px 90px 90px;
+}
+
+@media (max-width: 480px) { 
+  #mainCard{
+    padding: 0px;
+  }
+
 }
 
 #mainForm{
@@ -186,3 +198,4 @@
  margin: 20px;
  
 }
+
