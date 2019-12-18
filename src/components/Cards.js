@@ -41,7 +41,7 @@ class Cards extends React.Component{
                 cardClass: "card-img-top img-fluid myImg2",
                 name: "Jagger Eaton",
                 trick: "Blunt Slide",
-                location: " Dalls, Texas",
+                location: "Dalls, Texas",
                 src: "https://firebasestorage.googleapis.com/v0/b/portfolio-65fd5.appspot.com/o/Dallas-blunt.jpg?alt=media&token=c69b85cf-2810-457f-bd03-bc85040fac59"
             },
             {
