@@ -18,5 +18,5 @@ Creating a popup modal that worked precisely with vertical and horizontal images
 
 ## Hosting
 
-Website is hosted live on Firebase [TAXPHOTO.US](TAXPHOTO.US)
+Website is hosted live on Firebase [TAXPHOTO.US]:TAXPHOTO.US 
 
