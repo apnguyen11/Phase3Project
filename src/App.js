@@ -25,7 +25,7 @@ class App extends React.Component {
   constructor(props){
     super(props)
     Firebase.initializeApp(config)
-
+  
    
   }
 
@@ -48,6 +48,7 @@ class App extends React.Component {
   }
 
   render(){
+    console.log(this.state, 'props')
     return (
       <Router>
          
@@ -62,7 +63,7 @@ class App extends React.Component {
              </Route>
              <Route path="/images">
              <div id="mainCard"class="card-columns" >
-              <Cards props={this.props}/>
+              <Cards props={this.state}/>
               </div>
              </Route>
              <Route path="/about"> 
