@@ -12,21 +12,13 @@ import Firebase from 'firebase';
 import config from './config';
 import 'firebase/database';
 import 'firebase/storage'
-// import {Values} from 'redux-form-website-template'
-
-
-
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import { tsConstructorType } from '@babel/types';
-
 
 class App extends React.Component {
 
   constructor(props){
     super(props)
     Firebase.initializeApp(config)
-  
-   
   }
 
   componentDidMount() {
@@ -34,8 +26,7 @@ class App extends React.Component {
   }
 
   writeData = () => {
-    Firebase.database().ref('/').set({
-      
+    Firebase.database().ref('/').set({  
     })
   }
   getSkaterData = () => {
@@ -51,7 +42,6 @@ class App extends React.Component {
     console.log(this.state, 'props')
     return (
       <Router>
-         
          <div>
            <Navbar/>
            <Switch>
@@ -72,14 +62,10 @@ class App extends React.Component {
              <Route path="/contact">
              <Provider store={store}>
              <Contact/>
-      
              </Provider>
-             
              </Route>
            </Switch>
-           
         </div>
-       
       </Router>
      
     );
