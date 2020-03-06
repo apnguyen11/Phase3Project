@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Photo Portfolio
 
-The purpose of this project was to create a photographic portfolio of images that I have taken
+The purpose of this project was to create a photographic portfolio of images that I have taken. It includes a short bio, an image gallery, and a submission page that allows emails to be sent to my gmail.
 
 ## Technologies Used
 
